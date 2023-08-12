@@ -1,0 +1,342 @@
+/* immporting all required fonts.*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing:border-box;
+    font-family:"Roboto";
+}
+
+
+body{
+    margin:50px;
+}
+
+.bg-container {
+    background-color:#ffffff;
+}
+
+nav {
+    margin-bottom:10px;
+    /*padding-left:50px;
+    padding-right:50px;*/
+}
+
+.nav-ele {
+   margin-right:20px;
+   color:black !important;
+   font-weight:400;
+   margin-top:5px;
+}
+
+.navbar-heading {
+    font-size:28px;
+    font-weight:800;
+}
+.btn1{
+    color:white !important;
+    text-align:center;
+    background-color:#523c1e;
+    border-width:0px;
+
+}
+/*nav-elements {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}*/
+
+.space {
+    flex-grow:1;
+}
+.carousel-container {
+    margin-bottom:20px;
+}
+
+.category-heading {
+    text-align:center;
+    font-weight:600;
+    font-size:25px;
+    margin:20px;
+    margin-top:30px;
+}
+
+.sub-categories {
+    font-size:18px;
+    text-align:center;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+hr{
+    border-width:0px;
+    height:6px;
+    background-color:#f8f4ea;
+    width:100%;
+}
+.sub-categories-heading{
+    margin-top:7px;
+    margin-bottom:7px;
+    font-weight:normal ;
+    font-size:20px;
+    margin-right:5px
+}
+.rings-hr {
+    background-color:#523c1e ;
+}
+
+.ring-cards {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    text-align:left;
+    margin-bottom:25px;
+
+}
+.card {
+    display:flex;
+    flex-direction:column;
+    border-width:0px;
+    font-size:19px;
+}
+.card > h1 {
+    font-size:22px;
+    font-weight:700;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.card >img {
+    border-radius:8px;
+}
+
+.our-services-card {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.our-services-heading {
+    text-align:left;
+    font-size:28px;
+    font-weight:800;
+    margin-bottom:7px;
+}
+.services-strips {
+    display:flex;
+    width:100%
+
+}
+.our-services-description {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.services {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    
+    flex-grow:1;
+    margin-bottom:8px;
+}
+.services > h1 {
+    margin-top:8px;
+    margin-bottom:8px;
+    font-size:22px;
+    flex-grow:1;
+
+}
+.services > img {
+    height:434px;
+    width:601px;
+    flex-shrink:2;
+}
+.services-theory {
+    padding-left:20px;
+}
+.services > p {
+    flex-grow:1;
+    margin-bottom:8px;
+    font-size:18px;
+    background-color:#2b2024 60%;
+    overflow:auto;
+}
+.special-services{
+    background-color: #2b2024;
+    color:white;
+    flex-grow:1;
+}
+
+.btn2{
+    color:black;
+    text-align:center;
+    background-color:whitesmoke;
+    border-width:0px;
+
+}
+.connect {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.connect-heading {
+    margin-top:20px;
+    text-align:center;
+    font-size:28px;
+    font-weight:800;
+    margin-bottom:10px;   
+}
+
+.connect-images {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-bottom:15px;
+}
+.image {
+   width:487px;
+   height:450px;
+   margin:5px;  
+}
+.sub-image-container {
+    display:flex;
+    flex-direction:column;
+}
+.sub-image {
+    width:244px;
+    height:218px;
+    margin:5px;
+}
+.about-us {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-bottom:35px;
+}
+
+.about-us-content {
+    display:flex;
+    flex-direction:row;
+    margin-bottom:15px;
+}
+.about-us-heading {
+    margin-top:20px;
+    text-align:left;
+    font-size:28px;
+    font-weight:800;
+    margin-bottom:10px;      
+}
+.about-us-description {
+    display:flex;
+    flex-direction:column;
+
+}
+.about-us-description > p {
+    
+    font-weight:400;
+    font-size:22px;
+    line-height:35px;
+    color:#2b2024 75%;
+    margin:10px;
+    flex-grow:1;
+}
+.icons {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    margin:10px 10px 10px;
+    margin-right:20px;
+}
+.icons > img {
+    margin-right:20px;
+}
+
+.footer {
+    display:flex;
+    flex-direction:row;
+    margin-bottom:13px;
+    justify-content:space-evenly;
+}
+.luxury-description {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:33%;
+    flex-grow:1;
+}
+.about-us-footer {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:33%;
+    flex-grow:1;
+    padding-left:20px;
+}
+.about-us-footer >p {
+    margin-bottom:10px;
+}
+.about-us-footer > h1 {
+   margin-bottom:10px;
+}
+.support {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:33%;
+    flex-grow:1;
+    padding-left:20px;
+}
+.support-content {
+    display:flex;
+    flex-direction:row;
+    margin-bottom:10px;
+    justify-content:flex-start;
+    align-items:center;
+}
+.support-content > p {
+    padding:15px;
+}
+.luxury-description > h1  {
+    font-size:25px;
+    font-weight:bold;
+}
+.about-us-footer > h1 {
+    font-size:25px;
+    font-weight:bold;
+}
+.support > h1 {
+    font-size:25px;
+    font-weight:bold;
+}
+
+.support-content > img {
+    width:20px;
+    height:16px;
+    margin-bottom:15px;
+}
+
+@media (max-width:576px) {
+    .services-strips {
+        flex-direction:column;
+    }
+    .about-us-content {
+        flex-direction:column;
+    }
+    .services > img {
+        width:100%;
+    }
+    .footer {
+        flex-direction:column;
+    }
+    .luxury-description {
+        width:100%;
+    }
+    .about-us-footer {
+        width:100%;
+    }
+    .support {
+        width:100%;
+    }
+}
